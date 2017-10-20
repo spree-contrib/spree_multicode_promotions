@@ -1,0 +1,7 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    download_promotion_code_list: Download Code List
+    number_of_codes: ! '%{count} codes'

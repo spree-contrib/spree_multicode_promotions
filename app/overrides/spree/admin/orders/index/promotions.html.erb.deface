@@ -1,0 +1,2 @@
+<!-- replace "erb[loud]:contains('select :promotions_id_in')" -->
+<%= f.text_field :promotions_codes_value_cont, class: 'form-control' %>
