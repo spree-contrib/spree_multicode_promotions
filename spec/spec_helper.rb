@@ -40,7 +40,7 @@ require 'capybara/poltergeist'
 require 'spree_multicode_promotions/factories'
 
 RSpec.configure do |config|
-  config.include FactoryGirl::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
   config.include Devise::TestHelpers, type: :controller
 
   Capybara.javascript_driver = :poltergeist

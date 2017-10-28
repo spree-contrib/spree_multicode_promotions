@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :promotion_code, class: 'Spree::PromotionCode' do
     promotion
     value { SecureRandom.hex(5) }
